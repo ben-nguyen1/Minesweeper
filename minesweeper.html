@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mineswepper</title>
+    <meta name="Author" content=""/>
+    <link rel="stylesheet" type="text/css" href="minesweepercss.css">
+</head>
+<body>
+    <div class="gameCanvas">
+        <canvas id="gCanvas" oncontextmenu="return false;"</canvas>
+    </div>
+    <div class="button">
+        <id="newgame" onclick="newGame()">New Game</>
+    </div>
+    <div id="timer">
+        <time>TIME: 00:00:00</time>
+    </div>
+    <div class="menu">
+        <div id="styled-select">
+            <select id="menu">
+                <option value="easy">Easy(Default)</option>
+                <option value="medium">Medium</option>
+                <option value="expert">Expert</option>
+            </select>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
